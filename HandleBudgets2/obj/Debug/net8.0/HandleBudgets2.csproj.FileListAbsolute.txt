@@ -28,3 +28,4 @@ C:\Users\fgarao\Desktop\projects2\dotnet\HandleBudgets2\HandleBudgets2\obj\Debug
 C:\Users\fgarao\Desktop\projects2\dotnet\HandleBudgets2\HandleBudgets2\obj\Debug\net8.0\HandleBudgets2.pdb
 C:\Users\fgarao\Desktop\projects2\dotnet\HandleBudgets2\HandleBudgets2\obj\Debug\net8.0\HandleBudgets2.genruntimeconfig.cache
 C:\Users\fgarao\Desktop\projects2\dotnet\HandleBudgets2\HandleBudgets2\obj\Debug\net8.0\ref\HandleBudgets2.dll
+C:\Users\fgarao\Desktop\projects2\dotnet\HandleBudgets2\HandleBudgets2\obj\Debug\net8.0\HandleBudgets2.sourcelink.json

@@ -5,6 +5,12 @@ namespace HandleBudgets2.Controllers
 {
     public class AccountTypesController : Controller
     {
+        private readonly string connectionString;
+        //temporal
+        public AccountTypesController(IConfiguration configuration)
+        {
+            connectionString = configuration.GetConnectionString("DefaultConnection");
+        }
         public IActionResult Create()
         {
             return View();
