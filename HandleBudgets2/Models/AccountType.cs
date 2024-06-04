@@ -1,4 +1,5 @@
 ﻿using HandleBudgets2.Validations;
+using Microsoft.AspNetCore.Mvc;
 using System.ComponentModel.DataAnnotations;
 
 namespace HandleBudgets2.Models
@@ -10,8 +11,8 @@ namespace HandleBudgets2.Models
         //[StringLength(maximumLength: 50, MinimumLength = 3, ErrorMessage = "El campo {0} debe tener entre {2} y {1} caracteres.")]
         //[Display(Name = "Nombre del tipo de cuenta")]
         //[FirstCapitalLetter]
+        [Remote(action: "VerifyExistAccountType", controller: "AccountTypes")]
         public string Name { get; set; }
-
         public int UserId { get; set; }
         public int Order { get; set; }
 
@@ -22,7 +23,7 @@ namespace HandleBudgets2.Models
         //        var firstLetter = Name[0].ToString();
         //        if (firstLetter != firstLetter.ToUpper())
         //        {
-        //            yield return new ValidationResult("La primer letra debe ser mayusculita", new[] { nameof(Name) });
+        //            yield return new ValidationResult("La primer letra debe ser mayuscula", new[] { nameof(Name) });
         //        }
         //    }
         //}
